@@ -1,0 +1,51 @@
+body {
+  background: #ffe6ee;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #d6336c;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#yes {
+  background: #adb5bd;
+  color: white;
+}
+
+#no {
+  background: #adb5bd;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #d6336c;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+#yes {
+  animation: pulse 1s infinite;
+}
+
